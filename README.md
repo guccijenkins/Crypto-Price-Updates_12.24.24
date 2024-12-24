@@ -1,12 +1,11 @@
 **ABOUT**
 This is my first self guided project with Python. I used the skills learned from 100 Days of Code (https://www.udemy.com/course/100-days-of-code/?kw=100+day&src=sac).
+
 **CLOUD SERVER**
 I used this cloud server (https://www.pythonanywhere.com/) to run the code once per day (free version only allows for code to run once a day).
 
-
 **.ENV Variables**
 All of the "os.getenv" variables need to be included into the main.py file in the cloud server abobe for the code to work properly.
-
 
 **OUTPUT**
 
