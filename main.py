@@ -26,6 +26,8 @@ for m in merged_list:
     message = (f"The price of {m[0]} at this moment is ${m[1]}.\n\n")
     message_body += message
 
+
+# /// COIN GECKO NFT API ///
 COIN_GECKO_API_KEY = os.getenv('COIN_GECKO_API_KEY')
 
 coin_gecko_url = "https://api.coingecko.com/api/v3/search/trending"
@@ -33,8 +35,6 @@ headers = {
     "accept": "application/json",
     "x-cg-demo-api-key": COIN_GECKO_API_KEY
 }
-
-# /// NFT API ///
 
 response = requests.get(coin_gecko_url, headers=headers)
 NFTS = response.json()['nfts']
